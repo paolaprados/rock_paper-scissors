@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fredoka&display=swap");
+
+body {
+  margin: 0px;
+  align-items: center;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-family: "Fredoka", sans-serif;
+}
+.butones:hover {
+  background: #8a007e;
+  box-shadow: 5px 5px 5px #8d8d8d;
+  border: #fff solid 2px;
+}
+.butones {
+  margin: 0px 23px 0px 23px;
+  border: #8a007e 2px solid;
+}
+.container {
+  max-width: 600px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: #fc9df4;
+  justify-content: space-between;
+  border-radius: 80px;
+  border: #000 solid 2px;
+  align-items: center;
+}
+.grupobotones {
+  display: grid;
+  grid-template-columns: 128px 128px 128px;
+}
+.imagenes {
+  width: 60px;
+}
+.imgresul {
+  align-items: center;
+  width: 40px;
+}
+.titulo {
+  color: #8a007e;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+  margin: 0px;
+  /* text-transform: uppercase; */
+}
+.parrafo {
+  color: #000;
+  font-size: 20px;
+  font-family: "Fredoka", sans-serif;
+}
+.footer {
+  background: #fff;
+  color: #8a007e;
+}
